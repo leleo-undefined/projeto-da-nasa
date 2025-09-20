@@ -71,3 +71,41 @@ h1{
     font-size: 14px;
 
 }
+
+
+@media (max-width: 768px) {
+    .informations {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    h3 {
+        font-size: 1rem;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 0.9rem;
+    }
+    .card {
+        width: 90vw;
+        padding: 12px;
+        margin-bottom: 50px;
+    }
+}
