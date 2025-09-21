@@ -30,18 +30,6 @@ body{
     flex-direction: column;
 }
 
-.btn {
-    margin-bottom: 15px;
-    background: #4ef1f5;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-    color: #0f172a;
-}
-
 .footer{
     text-align: center;
     background-color: #45A29E;

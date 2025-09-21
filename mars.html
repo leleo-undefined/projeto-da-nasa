@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo of the Day</title>
+    <title>Mars</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="photo-styles.css">
+    <link rel="stylesheet" href="mars-styles.css">
 </head>
 <body>
     <div class="main-content">
@@ -44,12 +44,26 @@
     </nav>
     
         <div class="container">
-            <h1>Astronomy Picture of the Day </h1>
-            <img  id="apod-image" src="" alt=""> <!---lugar q a imagem da api vai ficar--->
-            <p id="apod-title"></p> <!---lugar q o titulo da foto vai ficar--->
-            <p id="apod-date"></p> <!---lugar q a data da foto foi tirada--->
-            <button class="btn" onclick="getPhotoOfTheDay()">View Photo of the Day</button>
-            <button class="btn" onclick="activateGallery()">View gallery mode</button>
+            <h1>Exploring Mars </h1>
+            <img  id="mars-image" src="" alt=""> <!---lugar q a imagem da api vai ficar--->
+            <p id="mars-title"></p> <!---lugar q o titulo da foto vai ficar--->
+            <p id="mars-date"></p> <!---lugar q a data da foto foi tirada--->
+                <div class="informations">
+        <div class="card">
+            <div class="icon"><img src="./images/earth.png"></div>
+            <p>Distance from Earth: ~225 million km</p>
+        </div>
+        <div class="card">
+            <div class="icon"><img src="./images/satellite.png"></div>
+            <p>Moons: 2 (Phobos & Deimos)</p>
+        </div>
+        <div class="card">
+            <div class="icon"><img src="./images/hourglass.png"></div>
+            <p>Day length: 24h 37min</p>
+        </div>
+    </div>
+            <button class="btn" onclick="getPhotoOfMars()">View Photo of the Day</button>
+            <button class="btn" onclick="activateMarsGalery()">View gallery mode</button>
         </div>
     </div>
     </div>
