@@ -10,6 +10,7 @@ body{
     color: white;
     background-color: #0B0C10;
 }
+
 .main-content {
     flex: 1;
 }
@@ -28,6 +29,49 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+
+.btn {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #4ef1f5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #0f172a;
+}
+
+.asteroid-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.asteroid-card {
+    background-color: #1f2833;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+.asteroid-card:hover {
+    transform: translateY(-5px);
+}
+
+.asteroid-card h4 {
+    margin-bottom: 10px;
+    color: #66fcf1;
+}
+
+.asteroid-card p {
+    margin: 5px 0;
 }
 
 .footer{

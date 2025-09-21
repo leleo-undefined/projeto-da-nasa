@@ -4,6 +4,11 @@ body{
     color: white;
     background-color: #0B0C10;
 }
+
+body img {
+    border-radius: 12px;
+}
+
 .custom-navbar .navbar-brand,
 .custom-navbar .nav-link {
     color: white !important; 
@@ -38,6 +43,8 @@ body{
     text-align: center;
     color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+
 }
 
 .icon {
@@ -61,6 +68,10 @@ body{
     font-size: 14px;
     margin-bottom: 20px;
     line-height: 1.4;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 

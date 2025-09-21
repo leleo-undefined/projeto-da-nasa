@@ -10,6 +10,12 @@ body{
     color: white;
     background-color: #0B0C10;
 }
+
+body img {
+    border-radius: 12px;
+}
+
+
 .main-content {
     flex: 1;
 }
